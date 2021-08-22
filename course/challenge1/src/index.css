@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.colorBox {
+  height: 300px;
+  width: 300px;
+
+  border: black solid 5px;
+  border-radius: 5%;
+}
+
+.inputBox {
+  background-color: aqua;
+}
