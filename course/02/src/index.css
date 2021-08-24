@@ -16,15 +16,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
   background-color: #efefef;
 }
 
+/* basic setting */
 #root {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* basic setting */
 
 .App {
   width: 100%;
@@ -205,11 +209,10 @@ body {
   cursor: pointer;
 }
 
-.Missing h2,
-.PostPage h2,
 .Missing p,
-.PostPage p {
-  margin-bottom: 1rem;
+.PostPage p,
+.NewPost p {
+  margin-top: 1rem;
 }
 
 .PostPage button {
@@ -218,9 +221,18 @@ body {
   border-radius: 0.25rem;
   padding: 0.5rem;
   font-size: 1rem;
-  background-color: red;
+  margin-right: 0.5rem;
+
   color: #fff;
   cursor: pointer;
+}
+
+.deleteButton {
+  background-color: red;
+}
+
+.editButton {
+  background-color: #333;
 }
 
 .statusMsg {
